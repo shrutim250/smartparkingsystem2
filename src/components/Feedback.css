@@ -1,0 +1,58 @@
+/* Feedback Page Styling */
+.feedback-container {
+    background: linear-gradient(135deg, #4b6cb7, #182848); /* Blue and dark blue gradient */
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 50px auto;
+    color: white;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header Styling */
+  .feedback-container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f0f8ff; /* Light blue */
+    margin-bottom: 20px;
+  }
+  
+  /* Textarea Styling */
+  .feedback-container textarea {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #f0f8ff; /* Light blue background for the textarea */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    resize: none;
+    outline: none;
+  }
+  
+  /* Button Styling */
+  .feedback-button {
+    background-color: #007bff; /* Bright blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the button */
+  .feedback-button:hover {
+    background-color: #0056b3; /* Darker blue */
+  }
+  
+  /* Placeholder text styling */
+  .feedback-container textarea::placeholder {
+    color: #aaa; /* Light gray placeholder text */
+  }
+  
